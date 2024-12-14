@@ -1,0 +1,44 @@
+{% extends "navigationbar.html" %}
+{% load static %}
+{% block body %}
+
+<style>
+.mydivstyle:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px); /* Add the missing semicolon */
+}
+</style>
+<div class="container" style ="margin-top:50px">
+<h2 class="text-center">CONTACT US</h2>
+<br><br>
+
+<div class="row mt-5 text-center">
+    <div class="col-lg-3 col-sm-6 mydivstyle">
+        {% comment %} when the screen is small 2 colums will ne there 6 size {% endcomment %}
+      <h4><i class="fa-solid fa-address-book"></i> Contact</h4>
+      <p class="mt-3 font-weight-bold"><a class="text-danger" href="tel:+919876543210" style="text-decoration: none;">+91 9876543210</a></p>
+</div>
+
+<div class="col-lg-3 col-sm-6 mydivstyle">
+        <h4><i class="fa-solid fa-envelope"></i> Send Email</h4>
+        <p class="mt-3 font-weight-bold"><a class="text-danger" href="mailto:m.sakshi2939@gmail.com" style="text-decoration: none;">m.sakshi2939@gmail.com</a></p>
+</div>
+
+
+<div class="col-lg-3 col-sm-6 mydivstyle">
+    <h4><i class="fa-solid fa-address-book"></i> Hospital Address</h4>
+    <p class="mt-3 font-weight-bold"><a class="text-danger" href="http://maps.google.com/maps?q=Berhampur+Odisha" style="text-decoration: none;">Berhampur,Odisha</a></p>
+</div>
+
+<div class="col-lg-3 col-sm-6 mydivstyle">
+    <h4><i class="fa-solid fa-envelope"></i> Hospital Timing</h4>
+    <p class="mt-3 font-weight-bold text-danger">9:00 AM to 7:30 PM</p>
+</div>
+
+
+
+</div>
+
+
+</div>
+{% endblock %}
