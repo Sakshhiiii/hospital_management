@@ -1,2 +1,2 @@
-This is a hospital management project
-BTECH - MAJOR PROJECT
+# hospital_management
+d956b0cdfec99dd6a629d5b9f1e7de19c48823ce
